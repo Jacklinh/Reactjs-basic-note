@@ -1,1 +1,1 @@
--link git <https://github.com/nhannn87dn/ReactJs-Basic-Tutorials/tree/main/1.RoadMap-40h/Session-01-React-Intro>
+-link git <https://github.com/nhannn87dn/ReactJs-Basic-Tutorials/>
