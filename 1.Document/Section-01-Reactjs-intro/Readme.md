@@ -9,7 +9,7 @@ Trong section này chúng ta sẽ lần lượt tìm hiểu các vấn đề sau
 
 > 🔸 Tại sao nên học Reactjs
 
-> 🔸 Css trong Reactjs (Flexbox)
+> 🔸 Ôn lại Flexbox
 
 > 🔸 Ôn lại Javascript Es6
 
@@ -47,3 +47,51 @@ Tuy nhiên, chúng ta ôn lại 1 chút về Javascript là gì? Thư viện Jav
 ***
 
 ## 🔶  Reactjs có thể làm gì?
+
+- làm WEB app
+- làm Mobile app
+- Làm Destop app
+
+***
+
+## 🔶  Tại sao nên học Reactjs?
+
+- Khả năng mở rộng và tái sử dụng cao
+- Hiệu suất ứng dụng cao
+- Phát triển nhanh( có thư viện hỗ trợ khổng lồ)
+- Cơ hội việc làm cao và thu nhập cao
+- Cộng đồng lớn
+- Trend phát triển <https://trends.google.com/trends/explore?cat=31&date=2021-01-01%202023-07-17&q=Vue,React,Angular>
+
+> 🔸 Xem Biểu đồ Trend tech: 
+- <https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies>
+- <https://npmtrends.com/@angular/core-vs-angular-vs-react-vs-vue>
+
+> 🔸 Các điểm nổi bật trong Reactjs
+
+- Phù hợp với đa dạng thể loại website: Reactjs khiến cho việc khởi tạo website dễ dàng hơn bởi vì bạn không cần phải code nhiều như khi tạo trang web thuần chỉ dùng javascript, html và nó đã cung cấp cho bạn đủ loại "đồ chơi" để bạn có thể dùng với nhiều trường hợp.
+- Tái sử dụng các Component: Nếu bạn xấy dựng các component đủ tốt để có thể thỏa các "yêu vaaif" của nhiều dự án khác nhau, bạn chỉ tốn thời gian xây dựng ban đầu và sử dụng lại hầu như toàn bộ ở các dự án sau.
+- Có thể sử dụng cho cả Mobile app: Ngoài sử dụng cho việc lập trình website, nó còn được sinh ra phát triển thêm ứng dụng MObile-kết hợp React Native
+- Thân thiện với SEO: Bản chất Reactjs là 1 thư viện Javascript. Google search Engine hiện đã crawl(thu thsspj thông tin) và index được code javascript , tuy nhiên bạn cũng cần thêm 1 vào thư viện khác để hỗ trợ điều này!
+- Debug dễ dàng. Facebook đã phát hành 1 chrome extension dùng cho việc debug trong quá trình phát triển ứng dụng ( React Developer Tools
+)
+
+***
+
+## 🔶  Ôn lại Flexbox
+
+xem các trang nguồn và ví dụ 
+
+Cheat: -- <https://flex.eszter.space/>
+
+Demo: <https://codepen.io/enxaneta/full/adLPwv/>
+
+Flexbox Model (xem hình minh họa) -- <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#the_flex_model>
+
+***
+
+## 🔶  Ôn lại Javascript Es6
+
+- Nắm thật chắc cú pháp ES6 : -- <https://www.w3schools.com/REACT/react_es6.asp>
+
+- Mở xem lại: [Mở Javascript ES6](Javascript-ES6/readme.md)
