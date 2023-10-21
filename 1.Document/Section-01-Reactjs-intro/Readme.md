@@ -95,3 +95,27 @@ Flexbox Model (xem hình minh họa) -- <https://developer.mozilla.org/en-US/doc
 - Nắm thật chắc cú pháp ES6 : -- <https://www.w3schools.com/REACT/react_es6.asp>
 
 - Mở xem lại: [Mở Javascript ES6](Javascript-ES6/readme.md)
+
+***
+
+## 🔶  Môi trường phát triển Reactjs
+
+> 🔸 Node.js
+
+- Node.js là 1 môi trường chạy mã javascript ở phía máy chủ.
+- Nó cho phép chúng ta chạy javascript bên ngoài trình duyệt, giúp xây dựng ứng dụng web đa nền tảng.
+- Node.js đi kèm với npm(Node Package Manager) hoặc yarn ( công cụ quản lý gói alternative)
+
+> 🔸 Cài đặt Node.js
+
+- Truy cập trang web chính thức của Node.js tại https://nodejs.org.
+- Tải xuống phiên bản LTS (Long-Term Support) phù hợp với hệ điều hành của bạn.
+- Chạy bộ cài đặt và hoàn thành quá trình cài đặt Node.js.
+
+> 🔸 Kiểm tra cài đặt node.js và npm
+
+- mở Terminal hoặc Command prompt trên máy tính của bạn
+- gõ lệnh "node -v" để kiểm tra phiên bản Node.js đã được cài đặt
+- gõ lệnh "npm -v" để kiểm tra phiên bản npm đã được cài đặt
+
+> Nên dùng yarn để cho tốc độ cài đặt nhanh hơn
