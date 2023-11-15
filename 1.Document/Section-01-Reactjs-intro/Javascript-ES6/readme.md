@@ -226,3 +226,50 @@ nhận vào 1 `callbackFn` làm nhiệm vụ lặp qua từng phần tử của 
 `array`: mảng gốc đang được lặp từ forEach
 
 còn `thisArg` là biến có thể có hoặc không và lấy giá trị của dối tượng ra ngoài forEach
+***
+
+## 🔶  Array map
+
+```javascript
+    // callbakc function
+    map(callbackFn)
+    array.map(callbackFn,[thisArg]);
+    // inline callback function
+    map(function(element){ /*... */ })
+    map(function(element, index){ /*... */ })
+    map(function(element, index, array){ /*... */ })
+    map(function(element, index, array){ /*... */ }, thisArg)
+    // arrow function
+    map((element) => { /*... */ })
+    map((elemnt, index) ==> { /*... */ })
+    map((element, index, array) => {/*... */})
+```
+
+Phương thức array.map() sẽ tạo 1 mảng mới với kết quả được return trong call back
+
+Ex: array.map()
+```javascript
+const array1 = [1, 4, 9, 16];
+
+// pass a function to map (short hand)
+const map1 = array1.map(x => x * 2); 
+// trong tham số là 1 arrow functon, ta viết lại như sau const map1 = array.map((x) => {return x *2})
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+```
+object.map()
+
+```javascript
+const kvArray = [
+  { key: 1, value: 10 },
+  { key: 2, value: 20 },
+  { key: 3, value: 30 },
+];
+
+const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
+
+console.log(reformattedArray); // [{ 1: 10 }, { 2: 20 }, { 3: 30 }]
+```
+
+
